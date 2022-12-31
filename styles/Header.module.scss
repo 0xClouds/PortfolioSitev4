@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .imgContainer {
+    img {
+      position: relative !important;
+    }
+    margin-bottom: 1rem;
+  }
+
+  .author {
+    font-size: 0.7rem;
+  }
+}

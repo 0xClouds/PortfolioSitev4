@@ -1,0 +1,14 @@
+.top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .header {
+    flex-grow: 1;
+  }
+  .about {
+    flex-grow: 0;
+  }
+}
