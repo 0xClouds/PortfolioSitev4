@@ -1,0 +1,72 @@
+@import "../styles//utils/variables";
+
+//.main {
+//   width: 80%;
+//   height: 10em;
+//   background: #1e1d1e;
+//   margin-bottom: 5em;
+
+//   .header {
+//     border: 1px solid white;
+//     height: 15%;
+//     text-align: center;
+//   }
+//   .body {
+//     border: 1px solid white;
+//     border-top: none;
+//     height: 90%;
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 1fr 1fr;
+//   }
+// }
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  .link {
+    width: 80%;
+    margin: 0;
+    height: 20em;
+    border: 1px solid grey;
+    margin-bottom: 1.5rem;
+    box-shadow: white 0px 0px 10px;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 2rem;
+
+      .headerText {
+        margin-bottom: 0.3rem;
+      }
+      .projectImg {
+        width: 5%;
+        align-self: flex-start;
+        margin: 0.5rem;
+      }
+      .languagesList {
+        list-style: none;
+        font-size: 0.5rem;
+        display: flex;
+        gap: 1rem;
+      }
+    }
+
+    .body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .infoText {
+        font-size: 0.8rem;
+        width: 80%;
+      }
+    }
+  }
+}

@@ -1,3 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  column-gap: 5rem;
+}
+
 .top {
   height: 100vh;
   display: flex;
@@ -7,8 +14,5 @@
 
   .header {
     flex-grow: 1;
-  }
-  .about {
-    flex-grow: 0;
   }
 }

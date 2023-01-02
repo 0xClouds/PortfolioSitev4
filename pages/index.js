@@ -2,7 +2,9 @@ import styles from "../styles/Home.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import About from "../components/About";
-import { Ref, useEffect, useRef } from "react";
+import MainMenu from "../components/MainMenu";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,9 @@ export default function Home() {
         <Header></Header>
       </div>
       <About></About>
+      <MainMenu></MainMenu>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

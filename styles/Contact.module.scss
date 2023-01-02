@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 8rem;
+  .header {
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+  .imgContainer {
+    width: 50%;
+    margin: 1rem auto;
+  }
+  .svg {
+    margin-top: 2rem;
+    animation: arrowBounce 1.5s linear infinite;
+  }
+  .contactBar {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 100%;
+    .contactList {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@keyframes arrowBounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

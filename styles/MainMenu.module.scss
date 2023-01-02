@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .imgContainer {
+    width: 80%;
+    margin-bottom: 3em;
+  }
+}

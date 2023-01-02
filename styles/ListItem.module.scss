@@ -1,0 +1,9 @@
+@import "../styles//utils/variables";
+
+.listItem {
+  list-style: none;
+  font-size: 1rem;
+}
+.active {
+  color: $complimentaryColor;
+}
