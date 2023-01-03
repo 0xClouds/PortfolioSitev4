@@ -1,19 +1,24 @@
+@import "../styles//utils/variables";
+
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   text-align: center;
   margin-top: 8rem;
+
   .header {
     font-size: 3rem;
-    margin: 0 1rem;
+    margin: 2rem 1rem;
+    flex-basis: 50%;
   }
   .imgContainer {
     width: 50%;
     margin: 1rem auto;
   }
   .svg {
-    margin-top: 2rem;
+    margin: 4rem 0 4rem 0;
     animation: arrowBounce 1.5s linear infinite;
   }
   .contactBar {
@@ -22,10 +27,19 @@
     width: 100%;
     .contactList {
       display: flex;
-      justify-content: space-between;
       list-style: none;
+      justify-content: space-around;
+      flex-wrap: wrap;
       margin: 0 0.5rem;
       font-size: 1.5rem;
+      .link {
+        flex-basis: 30%;
+        .listItem {
+          &:hover {
+            color: $complimentaryColor;
+          }
+        }
+      }
     }
   }
 }
@@ -39,5 +53,16 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .main {
+    .contactBar {
+      margin-top: 5rem;
+      .contactList {
+        font-size: 4rem;
+      }
+    }
   }
 }

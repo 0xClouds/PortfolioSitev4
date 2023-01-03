@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  .navContainer {
+    .imgContainer {
+      width: 10%;
+      margin: 0 0 1rem 4rem;
+    }
+  }
+  .infoContainer {
+    overflow-x: hidden;
+    width: 80%;
+  }
+}

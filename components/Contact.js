@@ -21,15 +21,27 @@ export default function Contact() {
       </div>
       <div className={styles.contactBar}>
         <ul className={styles.contactList}>
-          <a href="https://twitter.com/Clouds9x">
-            <li>TWITTER</li>
+          <a className={styles.link} href="https://twitter.com/Clouds9x">
+            <li className={styles.listItem}>TWITTER</li>
           </a>
-          <a href="https://mirror.xyz/0x0e086ddA48aC11cA5957a5933A5FDF76453886ED">
-            <li>READ</li>
+          {/* <a
+            className={styles.link}
+            href="https://mirror.xyz/0x0e086ddA48aC11cA5957a5933A5FDF76453886ED"
+          >
+            <li className={styles.listItem}>READ</li>
+          </a> */}
+          <a className={styles.link} href="https://github.com/0xClouds">
+            <li className={styles.listItem}> GITHUB</li>
           </a>
-          <a href="https://github.com/0xClouds">
-            <li>GITHUB</li>
+          <a
+            className={styles.link}
+            href="https://www.linkedin.com/in/ryan-morning/"
+          >
+            <li className={styles.listItem}>LINKEDIN</li>
           </a>
+          {/* <a className={styles.link}>
+            <li className={styles.listItem}>Rmorning96@proton.me</li>
+          </a> */}
         </ul>
       </div>
     </div>

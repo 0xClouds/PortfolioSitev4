@@ -3,7 +3,7 @@ const PROJECTS = [
     title: "Cosmies",
     technology: ["Next.js", "Javascript", "SCSS"],
     description:
-      "10 species of intergalactic travelers have had to flee their homes, antcipating a crash landing here on Earth it up to YOU to embark on a new adventure to secure their future. an NFT project from the mind of digital artist Sisto",
+      "10 species of intergalactic travelers have had to flee their homes, anticipating a crash landing here on Earth. It is up to YOU to embark on a new adventure to secure their future. an NFT project from the mind of digital artist Sisto",
     challenges:
       "Begining as a start-up between me and two other developers, we sourced a client to create a Move 2 Earn game. A game centered around fitness and the evolution of a 'Dynamic NFT'. There were many challenges faced as both Co-Founder and Lead front end developer. From team cohesion, global schedules, and working in a remote atmosphere. Communication, orginization, and effeciency were of the upmost importance in order to make sure that deadlines could be met. While this project has been indefintely postponed it lead to many lessons about working in a start-up environment. -- UI/UX is sourced from a Figma design provided to me by the in house designer. Creating this frontend really helped ground many React concepts for me like Hooks, Functional Components, State Management, and Component lifecycle.",
     link: "https://comsies-frontend-nextjs-dapp.vercel.app/",
@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "ECDSA",
     technology: ["Node.Js", "React", "REST"],
     description:
-      "Grab a private key and sign a transaction! This takes a look at the ecliptic curve digital signature algorithm! ",
+      "Grab a private key and sign a transaction! This takes a look at the elliptic curve digital signature algorithm! ",
     challenges:
       "While this a centralized solution, and has no true provider to provide the private keys, we can still get the gist of whats happening in Public Key Cryptography. We only allow transfers that have been signed for by the purpose who owns the associated address. We are using Ethereum cryptography library this allowed great insight into some of the core fundamentals of how transactions work on Ethereum. As well as giving me experience using a REST API created using Express and Node.js",
     link: "",

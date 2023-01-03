@@ -8,3 +8,12 @@
     margin-bottom: 3em;
   }
 }
+
+@media all and (min-width: 1500px) {
+  .main {
+    .imgContainer {
+      width: 60%;
+      margin-bottom: 10rem;
+    }
+  }
+}

@@ -1,8 +1,27 @@
 @import "../styles//utils/variables";
 .main {
-  .navList {
+  .mobileNavList {
     display: flex;
     flex-direction: row;
     margin: 2rem 0;
+  }
+  .desktopNavList {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .main {
+    border-left: 1px solid white;
+    height: 30%;
+    margin-left: 4rem;
+    padding-left: 1rem;
+    .mobileNavList {
+      display: none;
+    }
+    .desktopNavList {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
