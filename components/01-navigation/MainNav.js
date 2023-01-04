@@ -5,7 +5,11 @@ export default function MainNav({ setCurrentIndex, currentIndex }) {
   return (
     <div className={styles.main}>
       <ul className={styles.mobileNavList}>
-        <ListItem text="Projects" setCurrentIndex={undefined}></ListItem>
+        <ListItem
+          text="Projects"
+          setCurrentIndex={setCurrentIndex}
+          index={0}
+        ></ListItem>
       </ul>
       {/* Desktop Navigation */}
       <ul className={styles.desktopNavList}>

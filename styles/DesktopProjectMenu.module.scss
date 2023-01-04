@@ -1,11 +1,21 @@
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
-  .navContainer {
-    .imgContainer {
-      width: 10%;
-      margin: 0 0 1rem 4rem;
+
+  .imgContainer {
+    width: 50%;
+    align-self: center;
+  }
+  .menuContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    .navContainer {
+      .imgContainer {
+        width: 10%;
+        margin: 0 0 1rem 4rem;
+      }
     }
   }
   .infoContainer {
