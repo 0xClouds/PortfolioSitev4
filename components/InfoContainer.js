@@ -1,12 +1,12 @@
 import styles from "../styles/InfoContainer.module.scss";
 import WebThreeLogo from "./00-images/WebThreeLogo";
 import projects from "../public/projectsHelper";
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function InfoContainer({ currentIndex }) {
   const [windowWidth, setWindowWidth] = useState();
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     setWindowWidth(window.innerWidth);
   }, []);
   return (

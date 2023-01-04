@@ -7,11 +7,23 @@ export default function NavBar() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className={styles.main} style={isOpen ? { position: "fixed" } : null}>
+    <div className={styles.main}>
       <div className={styles.navContainer} onClick={handleClick}>
-        <div className={styles.bar1}></div>
-        <div className={styles.bar2}></div>
-        <div className={styles.bar3}></div>
+        <div
+          className={` ${isOpen ? styles.active : undefined} ${styles.bar1} ${
+            styles.bar
+          }`}
+        ></div>
+        <div
+          className={` ${isOpen ? styles.active : undefined} ${styles.bar2}  ${
+            styles.bar
+          }`}
+        ></div>
+        <div
+          className={` ${isOpen ? styles.active : undefined} ${styles.bar3}  ${
+            styles.bar
+          }`}
+        ></div>
       </div>
       <div className={` ${styles.menu} ${isOpen ? styles.slide : styles.hide}`}>
         {isOpen ? (
