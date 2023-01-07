@@ -14,25 +14,23 @@ export default function About() {
         <span> &#60; Front-End | Blockchain &gt; </span>
       </div>
       <p className={styles.aboutInfo}>
-        12 years ago I was 14 when my friends and I were introduced to BTC.
-        Enthralled with the cyberpunk-esque era of cryptocurrencies it became a
-        core pillar of my identity. However I never imagined decentralized
-        technologies would come this far.
+        I am software engineer specalizing in front-end development. My passion
+        for decentralized techonologies began in 2011 and lead me to becoming a
+        mentee to a senior front-end developer. Today I enjoy building front-end
+        experiences with modern technologies, and creating smart contracts.
       </p>
 
       <Spinner></Spinner>
       <p className={styles.aboutInfo}>
-        Today I am on the never ending path of becoming a software engineer. I
-        began as a mentee for a senior front-end developer. I gravitated towards
-        front-end technologies and later blockchain. My goal is to be a
-        blockchain engineer. Right now I am learning solidity, and perfecting my
-        front-end skills.
-        <br></br> <br></br> I have participated in startups being the lead smart
-        contract engineer, built NFT projects, spoken at NFT conferences, joined
-        fantastic communities like BAYC/MAYC & Developer Dao, and currently a
-        mentor with Ethereum San Diego supporting students through the Alchemy
-        University curriculum.
-        <br></br> <br></br>
+        I am partipating in startups, founding new project ideas with other
+        developers, and am a active and core member to the Web 3 community in
+        San Diego!
+        <br></br>
+        <br></br>I am freelancing as a developer and a Mentor at ETH SD
+        supporting students through the Alchemy Uni cirriculum. I speak at
+        confrences and give education on the tools needed to become a developer.
+        Today I am looking to break into the industry as a software engineer
+        using my skills to become an asset to a team!
       </p>
       <h1 className={styles.header}>Technologies</h1>
       <ul className={styles.techList}>
