@@ -24,7 +24,7 @@ const PROJECTS = [
       "Grab a private key and sign a transaction! This takes a look at the elliptic curve digital signature algorithm! ",
     challenges:
       "While this a centralized solution, and has no true provider to provide the private keys, we can still get the gist of whats happening in Public Key Cryptography. We only allow transfers that have been signed for by the purpose who owns the associated address. We are using Ethereum cryptography library this allowed great insight into some of the core fundamentals of how transactions work on Ethereum. As well as giving me experience using a REST API created using Express and Node.js",
-    link: "",
+    link: "https://github.com/0xClouds/ecdsa_node",
   },
   {
     title: "Lofi-Defi",
